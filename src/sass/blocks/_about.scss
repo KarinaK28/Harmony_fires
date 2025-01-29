@@ -1,5 +1,5 @@
 .about {
-    display: none;
+    display: block;
     padding-top: 120px;
     &__wrapper {
         display: grid;
@@ -48,6 +48,10 @@
             @include before_circle;
             &:before {
                 top: 0;
+            }
+            img {
+                width: 25px;
+                height: 25px;
             }
         }
         &-text {
